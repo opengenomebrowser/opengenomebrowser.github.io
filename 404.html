@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <title>Error 404: This page has been moved.</title>
 
+    <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
+
     <script>
         window.onload = function () {
             const destination = window.location.href
             if (window.location.href.includes("opengenomebrowser.github.io/opengenomebrowser")) {
+                // Redirect old url to new url
                 const redirectLocation = window.location.href.replace(
                     "opengenomebrowser.github.io/opengenomebrowser",
                     "opengenomebrowser.github.io"
@@ -22,8 +25,6 @@
                 })
             }
         }
-
-
     </script>
 
     <style>
