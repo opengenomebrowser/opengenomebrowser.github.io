@@ -1,0 +1,7 @@
+theme: jekyll-theme-slate
+title: OpenGenomeBrowser
+description: OpenGenomeBrowser is a dynamic and scalable web platform for comparative genomics.
+
+markdown: CommonMarkGhPages
+
+# Note to self: Check if all links work using `linkchecker https://opengenomebrowser.github.io/`
