@@ -6,7 +6,6 @@ _OpenGenomeBrowser is a dynamic and scalable web platform for comparative genomi
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/opengenomebrowser/opengenomebrowser/master/website/static/global/customicons/ogb-full.svg"  width="500px">
-</div>
 
 <style type="text/css">
     #ogb-btns > .ogb-btn {
@@ -88,18 +87,15 @@ _OpenGenomeBrowser is a dynamic and scalable web platform for comparative genomi
 </style>
 
 <div id="ogb-btns" aria-label="OpenGenomeBrowser links panel">
-    <a id="ogb-btn-demo" type="button" class="ogb-btn"
-    href="https://opengenomebrowser.bioinformatics.unibe.ch/"
+    <a id="ogb-btn-demo" type="button" class="ogb-btn" href="https://opengenomebrowser.bioinformatics.unibe.ch/"
     >Demo</a>
-    <a id="ogb-btn-youtube" type="button" class="ogb-btn"
-    href="https://www.youtube.com/watch?v=rkWREfcwPKQ"
+    <a id="ogb-btn-youtube" type="button" class="ogb-btn" href="https://www.youtube.com/watch?v=rkWREfcwPKQ"
     >Youtube</a>
-    <a id="ogb-btn-docs" type="button" class="ogb-btn"
-    href="https://opengenomebrowser.github.io/"
+    <a id="ogb-btn-docs" type="button" class="ogb-btn" href="https://opengenomebrowser.github.io/"
     >Docs</a>
-    <a id="ogb-btn-source" type="button" class="ogb-btn"
-    href="https://github.com/opengenomebrowser/opengenomebrowser"
+    <a id="ogb-btn-source" type="button" class="ogb-btn" href="https://github.com/opengenomebrowser/opengenomebrowser"
     >Source</a>
+</div>
 </div>
 
 <hr>
