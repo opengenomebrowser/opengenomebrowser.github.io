@@ -30,13 +30,13 @@ git clone https://github.com/opengenomebrowser/opengenomebrowser-docker-template
 cd opengenomebrowser-docker-template
 ```
 
-## Download demo database
+## Download demo folder_structure
 
 ```bash
 ./download_demo_db.sh
 ```
 
-... or use your own database, of course! Read the [documentation](documentation/index.md) on how to do that.
+... or use your own folder_structure, of course! Read the [documentation](documentation/index.md) on how to do that.
 
 ## Run docker-compose
 
@@ -75,7 +75,7 @@ In the terminal from before, run:
 
 ```bash
 # import organisms and genomes
-$docker (user)# python db_setup/manage_ogb.py import-database
+$docker (user)# python db_setup/manage_ogb.py import-folder-structure
 
 # import ortholog annotations
 $docker (user)# python db_setup/manage_ogb.py import-orthologs

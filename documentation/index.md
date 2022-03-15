@@ -15,9 +15,9 @@ folder structure really simple.
 For example, it only takes two commands to annotate an assembly using prokka and import it into the folder structure:
 
 ```shell
-export GENOMIC_DATABASE=/path/to/database
+export GENOMIC_DATABASE=/path/to/folder_structure
 
-init_database  # requires the opengenomebrowser-tools python library
+init_folder_structure  # requires the opengenomebrowser-tools python library
 
 prokka \
   --strain STRAIN \ 

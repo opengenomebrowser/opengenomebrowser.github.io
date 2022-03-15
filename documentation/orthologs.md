@@ -12,13 +12,13 @@ Use the commands `init_orthofinder` and `import_orthofinder` from
 the [opengenomebrowser-tools](https://github.com/opengenomebrowser/opengenomebrowser-tools) library!
 
 ```shell
-export GENOMIC_DATABASE=/path/to/database
+export GENOMIC_DATABASE=/path/to/folder_structure
 
 # collect .faa files
 init_orthofinder
 
 # run OrthoFinder
-orthofinder -f /path/to/database/OrthoFinder/fastas ...
+orthofinder -f /path/to/folder_structure/OrthoFinder/fastas ...
 
 # parse the output files into an OpenGenomeBrowser-compatible format
 import_orthofinder

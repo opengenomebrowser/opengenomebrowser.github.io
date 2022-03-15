@@ -1,7 +1,7 @@
 # Folder structure
 
 ```
-database
+folder_structure
 ├── version.json
 └── organisms
      ├── ORGANISM1
@@ -25,7 +25,7 @@ database
 ## A shortcut: `opengenomebrowser-tools`
 
 The python library [opengenomebrowser-tools](https://github.com/opengenomebrowser/opengenomebrowser-tools) can create both the folder structure and
-the metadata files automatically! The relevant commands are `init_database` and `import_genome`.
+the metadata files automatically! The relevant commands are `init_folder_structure` and `import_genome`.
 
 ## Versioning
 
@@ -36,7 +36,7 @@ relevant updates must be applied to the folder structure. The command `update_fo
 should make this very easy. Example usage:
 
 ```shell
-export GENOMIC_DATABASE=/path/to/database
+export GENOMIC_DATABASE=/path/to/folder_structure
 update_folder_structure 1_to_2
 ```
 
