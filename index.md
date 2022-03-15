@@ -2,7 +2,7 @@
 
 ## Welcome to OpenGenomeBrowser
 
-_OpenGenomeBrowser is a dynamic and scalable web platform for comparative genomics._
+_OpenGenomeBrowser: A reusable database independent and scalable web platform for genome database management and comparative genomics_
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/opengenomebrowser/opengenomebrowser/master/website/static/global/customicons/ogb-full.svg"  width="500px">
