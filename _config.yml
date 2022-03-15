@@ -4,4 +4,7 @@ description: OpenGenomeBrowser is a dynamic and scalable web platform for compar
 
 markdown: CommonMarkGhPages
 
+commonmark:
+  options: ["UNSAFE", "SMART"]
+
 # Note to self: Check if all links work using `linkchecker https://opengenomebrowser.github.io/`
