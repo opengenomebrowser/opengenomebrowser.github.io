@@ -1,1 +1,4 @@
 .idea
+.gems/
+Gemfile.lock
+_site/
