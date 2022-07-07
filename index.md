@@ -2,8 +2,6 @@
 
 ## Welcome to OpenGenomeBrowser
 
-_The solution for organizing and analysing your microbes._
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/opengenomebrowser/opengenomebrowser/master/website/static/global/customicons/ogb-full.svg"  width="500px">
 
