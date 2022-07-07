@@ -1,7 +1,5 @@
 <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
 
-## Welcome to OpenGenomeBrowser
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/opengenomebrowser/opengenomebrowser/master/website/static/global/customicons/ogb-full.svg"  width="500px">
 
