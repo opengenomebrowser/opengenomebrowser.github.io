@@ -119,9 +119,17 @@
 **Code:**
 [github.com/opengenomebrowser/opengenomebrowser](https://github.com/opengenomebrowser/opengenomebrowser) <br>
 
-<hr>
+
+## Abstract
+
+OpenGenomeBrowser is a self-hostable open-source platform that manages access to genomic data and drastically simplifies
+comparative genomics analyses. It enables users to interactively generate phylogenetic trees, compare gene loci, browse
+biochemical pathways, perform gene trait matching, create dot plots, execute BLAST searches, and access the data. It
+features a flexible user management system, and its modular folder structure enables the organization of genomic data
+and metadata, and to automate analyses.
 
 <iframe src="https://www.youtube.com/embed/rkWREfcwPKQ" allow="encrypted-media" allowfullscreen frameborder="0" scrolling="no" style="overflow:hidden;height:360px;width:100%" height="360" width="100%"></iframe>
+
 
 ## Get help
 
@@ -129,6 +137,7 @@ If you find a bug that has not been reported
 yet, [submit an issuehere on GitHub](https://github.com/opengenomebrowser/opengenomebrowser/issues).
 
 To chat with the developer join the OpenGenomeBrowser [Discord channel](https://discord.gg/mDm4fqf).
+
 
 ## Funding
 
@@ -158,8 +167,13 @@ OpenGenomeBrowser was created with funding from:
 </tbody>
 </table>
 
-## News
+
+## [News](news.md)
+
+<style>
+h2 a {
+   color: black;
+}
+</style>
 
 {% include news-feed.md %}
-
-[All news](news.md)
