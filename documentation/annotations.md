@@ -123,7 +123,7 @@ EXAMPLE1234-2-1.1_000004
 EXAMPLE1234-2-1.1_000008	K000001, K000002
 ```
 
-Add them to `genome.json` as described [here](../documentation/folder_structure_and_metadata.md#custom-annotations-format).
+Add them to `genome.json` as described [here](../documentation/folder-structure-and-metadata.md#custom-annotations-format).
 
 ## Annotation descriptions (optional)
 

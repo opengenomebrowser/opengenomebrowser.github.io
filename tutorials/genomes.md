@@ -7,7 +7,7 @@ genomes.
 
 On this page you can...
 
-- search the genome database
+- search for genomes
 - apply filters
 - sort by column
 - forward selected genomes to further analysis

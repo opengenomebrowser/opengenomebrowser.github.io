@@ -12,7 +12,7 @@ Use the commands `init_orthofinder` and `import_orthofinder` from
 the [opengenomebrowser-tools](https://github.com/opengenomebrowser/opengenomebrowser-tools) library!
 
 ```shell
-export GENOMIC_DATABASE=/path/to/folder_structure
+export FOLDER_STRUCTURE=/path/to/folder_structure
 
 # collect .faa files
 init_orthofinder
@@ -69,12 +69,13 @@ If you choose to add OrthoFinder, do as follows (can be done automatically using
 ```
 
 1. Link (or copy) all protein fastas to `OrthoFinder/fastas`
-    1. If your database is very big, you could exclude non-representative and contaminated genomes, for example 1.The fastas **must** be named as
+    1. If your database is very big, you could exclude non-representative and contaminated genomes, for example
+    1. The fastas **must** be named as
        follows: `<genome-identifier>.<suffix>`
     1. Tell OpenGenomeBrowser what your suffix is (
        see [`template.env`](https://github.com/opengenomebrowser/opengenomebrowser-docker-template/blob/main/production-template.env))
 1. Run OrthoFinder (`orthofinder -f /path/to/OrthoFinder/fastas`)
-    1. Because previously performed pairwise comparisons are stored and can be re-used OrthoFinder analyses can be updated very efficiently by simply
+   1. Because previously performed pairwise comparisons are stored and can be re-used OrthoFinder analyses can be updated very efficiently by simply
        adding or removing protein files. See [OrthoFinder docs](https://github.com/davidemms/OrthoFinder#advanced-usage) for more information.
 
 When OrthoFinder is done, the folder structure should look like this:

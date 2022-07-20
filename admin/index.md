@@ -7,7 +7,7 @@ The admin panel enables certain users to change the metadata in the database:
 - [upload and import new genomes](upload-genome.md)
 - change metadata associated with organisms (e.g.: change TaxId)<sup>*</sup>
 - change metadata associated with genomes<sup>*</sup>
-- edit markdown files ([organism.md and genome.md](../documentation/folder_structure_and_metadata.md#organismmd-and-genomemd))
+- edit markdown files ([organism.md and genome.md](../documentation/folder-structure-and-metadata.md#organismmd-and-genomemd))
 - create new tags and edit their descriptions
 - add new TaxIDs
 

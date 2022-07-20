@@ -39,7 +39,7 @@ relevant updates must be applied to the folder structure. The command `update_fo
 should make this very easy. Example usage:
 
 ```shell
-export GENOMIC_DATABASE=/path/to/folder_structure
+export FOLDER_STRUCTURE=/path/to/folder_structure
 update_folder_structure 1_to_2
 ```
 
