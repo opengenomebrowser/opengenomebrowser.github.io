@@ -139,35 +139,6 @@ yet, [submit an issuehere on GitHub](https://github.com/opengenomebrowser/openge
 To chat with the developer join the OpenGenomeBrowser [Discord channel](https://discord.gg/mDm4fqf).
 
 
-## Funding
-
-OpenGenomeBrowser was created with funding from:
-
-<style>
-.tg { width:100%; border:none; background-color: white; border-radius: 4px; box-shadow: 0 5px 20px rgba(71,80,89,.15); } }
-.tg td { padding:2px; border:none }
-.tg th { border:none }
-.tg .tg-9wq8{ border:none; text-align:center; vertical-align:middle }
-.mini-img{ width:120px; margin:0; padding:0; border: unset; box-shadow: unset }
-</style>
-<table class="tg">
-<tbody>
-  <tr>
-    <td class="tg-9wq8"><img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/unibe.png" class="mini-img"/></td>
-    <td class="tg-9wq8"><a href="https://www.bioinformatics.unibe.ch/">University of Bern</a></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8"><img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/agroscope.png" class="mini-img"/></td>
-    <td class="tg-9wq8"><a href="https://www.agroscope.admin.ch/">Agroscope</a></td>
-  </tr>
-  <tr>
-    <td class="tg-9wq8"><img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/GRS.jpg" class="mini-img"/></td>
-    <td class="tg-9wq8"><a href="https://www.grstiftung.ch/">Gebert Rüf Stiftung</a></td>
-  </tr>
-</tbody>
-</table>
-
-
 ## [News](news.md)
 
 <style>
@@ -177,3 +148,40 @@ h2 a {
 </style>
 
 {% include news-feed.md %}
+
+
+## Funding
+
+OpenGenomeBrowser was created with funding from:
+
+<style>
+.card { border:none; background-color: white; border-radius: 4px; box-shadow: 0 5px 20px rgba(71,80,89,.15); }
+.flex-center { display: flex; justify-content: space-between; }
+.mini-img{ width:120px; margin:0; padding:0; border: unset; box-shadow: unset }
+.funder {
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	border: none;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 5px 20px rgba(71,80,89,.15);
+	padding: 0.8rem 0;
+}
+.funder { color: black; }
+</style>
+
+<div class="flex-center">
+    <a href="https://www.bioinformatics.unibe.ch/" class="funder flex-center card">
+        <img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/unibe.png" class="mini-img"/>
+        <span>University of Bern</span>
+    </a>
+    <a href="https://www.agroscope.admin.ch/" class="funder flex-center card">
+        <img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/agroscope.png" class="mini-img"/>
+        <span>Agroscope</span>
+    </a>
+    <a href="https://www.grstiftung.ch/" class="funder flex-center card">
+        <img src="https://opengenomebrowser.bioinformatics.unibe.ch/static/index/images/GRS.jpg" class="mini-img"/>
+        <span>Gebert Rüf Stiftung</span>
+    </a>
+</div>
