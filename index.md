@@ -157,7 +157,7 @@ OpenGenomeBrowser was created with funding from:
 <style>
 .card { border:none; background-color: white; border-radius: 4px; box-shadow: 0 5px 20px rgba(71,80,89,.15); }
 .flex-center { display: flex; justify-content: space-between; }
-.mini-img{ width:120px; margin:0; padding:0; border: unset; box-shadow: unset }
+.mini-img{ width: 120px; margin: 0; padding-bottom: 1rem; border: unset; box-shadow: unset }
 .funder {
 	flex-direction: column;
 	align-items: center;
