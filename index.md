@@ -128,7 +128,7 @@ biochemical pathways, perform gene trait matching, create dot plots, execute BLA
 features a flexible user management system, and its modular folder structure enables the organization of genomic data
 and metadata, and to automate analyses.
 
-<iframe src="https://www.youtube.com/embed/rkWREfcwPKQ" allow="encrypted-media" allowfullscreen frameborder="0" scrolling="no" style="overflow:hidden;height:360px;width:100%" height="360" width="100%"></iframe>
+<iframe src="https://www.youtube.com/embed/rkWREfcwPKQ" allow="encrypted-media" allowfullscreen frameborder="0" scrolling="no" style="overflow:hidden;width:100%; aspect-ratio: 16/9;" height="100%" width="100%"></iframe>
 
 
 ## Get help
