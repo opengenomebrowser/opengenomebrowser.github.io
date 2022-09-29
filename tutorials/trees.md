@@ -26,7 +26,7 @@ Copy on the newick string to copy the dendrogram, for example to use it in other
 
 Additional downloads:
 
-- For genome-similarity-based trees, download the similarity matrix that was used to calculate the tree by clicking on `Downlad as CSV`
-  or `Copy to Clipboard`)
+- For genome-similarity-based trees, download the distance matrix that was used to calculate the tree by clicking on `Download distance matrix`
+  or `Copy distance matrix`)
 - For single-copy-ortholog-based trees, download the full OrthoFinder output by clicking on `Download as .tar.xz`. If this option is not available,
   click on `Reload OrthoFinder` to regenerate the file.
