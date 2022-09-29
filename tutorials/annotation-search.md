@@ -4,7 +4,7 @@
 
 This page allows one to quickly see which genomes cover which annotations, and to go further to explore the genes.
 
-Click [here](https://opengenomebrowser.bioinformatics.unibe.ch/annotation-search/?annotations=EC%3A2.4.1.18+FAD-dependent!!!oxidoreductase+GO%3A0008986+K00231+R02120&genomes=%40tax%3ABacteria)
+Click [here](https://opengenomebrowser.bioinformatics.unibe.ch/annotation-search/?annotations=EC%3A2.4.1.18+FAD-dependent!!!oxidoreductase+GO%3A0008989+K00231+R02120&genomes=%40tax%3ABacteria)
 for an example.
 
 ## Usage
