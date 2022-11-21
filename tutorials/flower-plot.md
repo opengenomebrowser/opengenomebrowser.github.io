@@ -24,4 +24,7 @@ Click on outer numbers of flower petals to proceed to the list of unique annotat
 
 Click on the core genome (gray) to proceed to the list of annotations that are shared by all genomes.
 
-Example: [Click here](https://opengenomebrowser.bioinformatics.unibe.ch/flower-plot/?genomes=%40tax%3ABacteria&anno_type=OL).
+Example: [Click here](https://opengenomebrowser.bioinformatics.unibe.ch/flower-plot/?genomes=%40tag%3Amdpi&anno_type=OL).
+
+The resulting flower plot can be downloaded by clicking on the settings wheel, and then on `Save as PNG`
+or `Save as SVG`.

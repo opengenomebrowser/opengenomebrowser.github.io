@@ -5,7 +5,8 @@
 A demo instance of OpenGenomeBrowser is hosted here: [opengenomebrowser.bioinformatics.unibe.ch](https://opengenomebrowser.bioinformatics.unibe.ch/).
 It can be accessed without login.
 
-It contains 24 genomes published in the paper [Roder et al., Microorganisms, 2020](https://www.mdpi.com/2076-2607/8/7/966).
+It contains 24 genomes published in the paper [Roder et al., Microorganisms, 2020](https://www.mdpi.com/2076-2607/8/7/966)
+and 45 _Propionibacterium freudenreichii_ from the soon-to-be published paper on [Scoary2](https://github.com/MrTomRod/scoary-2).
 
 # Tutorials
 
