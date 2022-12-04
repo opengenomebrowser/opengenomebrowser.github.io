@@ -11,7 +11,7 @@ On this page you can...
 - apply filters
 - sort by column
 - forward selected genomes to further analysis
-- add or remove metadata columns (settings panel)
+- add or remove metadata columns (settings bar)
 - download the table in xlsx or csv format (settings panel)
 
 ## Usage
