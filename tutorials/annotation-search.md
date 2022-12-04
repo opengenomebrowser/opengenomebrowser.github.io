@@ -19,6 +19,8 @@ This will load a _coverage matrix_. Each row is a genome and each column is an a
 The numbers in the cells tell you how many genes of the genome cover the annotation. A click on a number will show you
 these [genes](../tutorials/gene.md).
 
-A click on an annotation will open a context menu with more options, for example a link to the [`compare genes`](../tutorials/compare-genes.md) page.
+To download the table, open the settings sidebar (click on the settings wheel) and click on `coverage-matrix.tsv` (numeric table) or `coverage-matrix-genes.tsv` (table with gene identifiers).
+
+Hint: A click on an annotation will open a context menu with more options, for example a link to the [`compare genes`](../tutorials/compare-genes.md) page.
 
 ![annnotation search demo](../media/annotation-search.apng)
