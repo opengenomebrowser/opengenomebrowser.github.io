@@ -1,3 +1,11 @@
+---
+image:
+  path: /media/ogb-full.png
+  height: 1000
+  width: 1200
+  alt: OpenGenomeBrowser Logo
+---
+
 <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
 
 <style>
@@ -90,7 +98,7 @@
 </style>
 
 <div class="center-content">
-<img class="ogb-logo" src="https://raw.githubusercontent.com/opengenomebrowser/opengenomebrowser/master/website/static/global/customicons/ogb-full.svg">
+<img class="ogb-logo" src="/media/ogb-full.svg">
 
 <div id="ogb-btns" aria-label="OpenGenomeBrowser links panel">
     <a id="ogb-btn-demo" type="button" class="ogb-btn" href="https://opengenomebrowser.bioinformatics.unibe.ch/"
