@@ -6,9 +6,9 @@ Get OpenGenomeBrowser running in 10 minutes!
 
 These are the basic steps:
 
-1. [Clone OpenGenomeBrowser docker template](#clone-the-opengenomebrowser-docker-template)
+1. [Clone OpenGenomeBrowser Docker template](#clone-the-opengenomebrowser-docker-template)
 2. [Download demo database](#download-demo-database)
-3. [Run docker-compose](#run-docker-compose)
+3. [Run Docker compose](#run-docker-compose)
 4. [Connect to the OpenGenomeBrowser container](#connect-to-the-opengenomebrowser-container)
 5. [Create superuser](#create-superuser)
 6. [Load the folder structure into the database](#load-the-folder-structure-into-the-database)
@@ -19,7 +19,7 @@ In order to run OpenGenomeBrowser with your own data you will have to prepare yo
 
 - Linux x64: We provide no support for macOS!
 - [docker](https://docs.docker.com/get-docker/)
-- [docker-compose](https://docs.docker.com/compose/install/)
+- [docker-compose-plugin](https://docs.docker.com/compose/install/)
 
 Note: ensure you have a **current** version of docker! System repositories tend to be out of date!
 
@@ -38,10 +38,10 @@ cd opengenomebrowser-docker-template
 
 ... or use your own folder_structure, of course! Read the [documentation](documentation/index.md) on how to do that.
 
-## Run docker-compose
+## Run Docker Compose
 
 ```bash
-docker-compose -f production-template.yaml up
+docker compose -f production-template.yaml up
 ```
 
 Open https://localhost/, ignore the self-signed certificate, and you should see the welcome page!
@@ -51,7 +51,7 @@ Open https://localhost/, ignore the self-signed certificate, and you should see 
 In a seperate terminal, run:
 
 ```bash
-# open terminal in docker-container
+# open terminal in Docker container
 docker exec -ti opengenomebrowser_web bash
 
 # log in as user
@@ -106,7 +106,7 @@ Updates are very simple to install. Simply stop the running container, pull the 
 # pull newest image
 docker pull opengenomebrowser/opengenomebrowser
 # start OpenGenomeBrowser
-docker-compose -f production-template.yaml up
+docker compose -f production-template.yaml up
 ```
 
 From time to time, something like the following message may appear:
