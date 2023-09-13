@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Preprint available on bioRxiv"
-show_homepage: true
+show_homepage: false
 excerpt_separator: <!--more-->
 ---
 

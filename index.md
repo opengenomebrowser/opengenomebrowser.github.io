@@ -194,3 +194,37 @@ OpenGenomeBrowser was created with funding from:
         <span>Gebert Rüf Stiftung</span>
     </a>
 </div>
+
+
+## How to cite
+
+Please cite our [paper](https://doi.org/10.1186/s12864-022-09086-3) on BMC Genomics:
+
+Roder, T., Oberhänsli, S., Shani, N. _et al._ _OpenGenomeBrowser_: a versatile, dataset-independent and scalable web
+platform for genome data management and comparative genomics.
+BMC Genomics **23**, 855 (2022). https://doi.org/10.1186/s12864-022-09086-3
+
+<details>
+
+  <summary>Click here to see the bibtex code.</summary>
+
+```bibtex
+@article{roder_2022,
+  title = {{ '{{' }}OpenGenomeBrowser}: a versatile, dataset-independent and scalable web platform for genome data management and comparative genomics.},
+  author = {Thomas Roder and Simone Oberhänsli and Noam Shani and Rémy Bruggmann},
+  pages = {855},
+  url = {http://dx.doi.org/10.1186/s12864-022-09086-3},
+  year = {2022},
+  month = {dec},
+  day = {27},
+  urldate = {2023-01-05},
+  journal = {{ '{{' }}BMC} Genomics},
+  volume = {23},
+  number = {1},
+  doi = {10.1186/s12864-022-09086-3},
+  pmid = {36575383},
+  pmcid = {PMC9795662}
+}
+```
+
+</details>
